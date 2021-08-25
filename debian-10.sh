@@ -72,10 +72,10 @@ else
 fi
 EOM
 
-echo "fixing shebang of $bin"
-termux-fix-shebang $bin
+echo "fixing shebang of $debian"
+termux-fix-shebang $debian
 echo "making $bin executable"
-chmod +x $bin
+chmod +x $debian
 echo "removing image for some space"
 rm $tarball
 echo "You can now launch Debian with the ./${bin} script"
