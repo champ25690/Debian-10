@@ -34,7 +34,7 @@ if [ "$first" != 1 ];then
 	cd "$cur"
 fi
 mkdir -p debian-binds
-bin=start-debian.sh
+bin=Debian-10.sh
 echo "writing launch script"
 cat > $bin <<- EOM
 #!/bin/bash
